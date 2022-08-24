@@ -107,7 +107,6 @@ body{
 @media screen and (max-width:740px) {
     .information-container
     {
-        height: 500px;
-        width: 400;
+        width: 400px;
     }
 }
