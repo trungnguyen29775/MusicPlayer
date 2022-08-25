@@ -103,14 +103,3 @@ body{
 {
     color:#cc2366;
 }
-
-@media screen and (max-width:740px) {
-    .information-container
-    {
-        background-color: none;
-    }
-    .web-container
-{
-    background-color: white;
-}
-}
