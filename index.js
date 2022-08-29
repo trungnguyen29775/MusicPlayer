@@ -6,16 +6,19 @@ const backButton = document.querySelector('.ti-control-skip-backward')
 const loopButton = document.querySelector('.ti-loop')
 const shuffleButton = document.querySelector('.ti-control-shuffle')
 const titleMusic = document.querySelector('.name-controll-zone h5')
+const posterMusic = document.querySelector('.audio-zone img')
 let i=0;
 
 const listSong = [
     {
-        "name":"Shay nắng",
-        "link":"https://tainhacmienphi.biz/get/song/api/403015"
+        "name":"Shay nắng - Amee",
+        "link":"https://tainhacmienphi.biz/get/song/api/403015",
+        "poster":"https://images.genius.com/d64785e525d77073b3001376411ddfa4.1000x1000x1.webp"
     },
     {
-        "name":"Chìm sâu",
-        "link":"https://tainhacmienphi.biz/get/song/api/366869"
+        "name":"Chìm sâu - RPT MCK x Trung Trần",
+        "link":"https://tainhacmienphi.biz/get/song/api/366869",
+        "poster":"https://nhachot.vn/wp-content/uploads/2022/03/loi-bai-hat-chim-sau-rpt-mck-x-trung-tran-kem-hop-am.jpg"
     }
 ];
 
@@ -60,6 +63,7 @@ function nextMusic()
     i+=1;
     if(i==listSong.length)
         i=0;
+    posterMusic.src=listSongClone[i].poster;
     titleMusic.textContent=listSongClone[i].name;
     audio.pause();
     audio.src= listSongClone[i].link;
