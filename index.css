@@ -39,6 +39,7 @@ body{
 {
     font-size: 35px;
     font-weight: 530;
+    color:#2980B9;
 }
 .avatar
 {
@@ -54,7 +55,7 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 0px;
 }
 
 .link-info-container a {
@@ -104,18 +105,52 @@ body{
     color:#cc2366;
 }
 
+.audio-zone 
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 12px;
+    box-sizing: border-box;
+    background-color: #2980B9;
+    border-radius: 30px;
+    padding: 5px 25px;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.name-controll-zone
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.audio-zone h5
+{
+    font-weight: 500;
+    margin: 0 0;
+    color:white;
+    font-size: 20px;
+}
+
 .audio-controll-button
 {
-    margin-top: 30px;
-    width: 80%;
+
+    width: 100%;
     display: flex;
     justify-content: space-around;
   
 }
 
 .audio-controll-button i{
-    font-size: 30px;
-    color: #b3acac;
+    font-size: 18px;
+    color: #FFFFFF;
     display: block;
 }
 
@@ -127,4 +162,15 @@ body{
 .audio-controll-button .hide
 {
     display: none;
+}
+
+.audio-zone img 
+{
+    height: 60px;
+    border-radius: 10px;
+}
+
+.audio-controll-button .active
+{
+    color: #1f445f;
 }
