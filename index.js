@@ -60,6 +60,46 @@ const listSong = [
         "link":"https://tainhacmienphi.biz/get/song/api/304258",
         "poster":"https://i1.sndcdn.com/artworks-huxHg5W9USkzL7t2-jl8Mfg-t500x500.jpg"
     },
+    {
+        "name":"Cuối chiều - Hải Sâm",
+        "link":"https://tainhacmienphi.biz/get/song/api/182001",
+        "poster":"https://haisanngosu.com/wp-content/uploads/2021/07/hai-sam.1.jpg"
+    },
+    {
+        "name":"Tôi Biết Em Không Biết- Kiên",
+        "link":"https://tainhacmienphi.biz/get/song/api/90966",
+        "poster":"https://photo-resize-zmp3.zmdcdn.me/w360_r1x1_jpeg/avatars/c/d/1/e/cd1e4f20506e6c623f468c55751e6610.jpg"
+    },
+    {
+        "name":"Nghe nhạc anh mỗi khi buồn - Kiên",
+        "link":"http://musicmd1fr.keeng.net/bucket-audio-keeng/sata06/songv3/2021/02/04/PQbGlyRvfEIxNjwOEK02601bb0098ebe3.mp3",
+        "poster":"https://photo-resize-zmp3.zmdcdn.me/w360_r1x1_jpeg/avatars/c/d/1/e/cd1e4f20506e6c623f468c55751e6610.jpg"
+    },
+    {
+        "name":"Đốt - Ngọt",
+        "link":"http://musicmd1fr.keeng.net/bucket-audio-keeng/sata08/songv3/2022/04/06/wcnnqb4tnDkJKZdpWcIf624d60be06812.mp3",
+        "poster":"https://zmp3-photo-fbcrawler.zmdcdn.me/avatars/8/2/82c1b4ebd0ec188c2c3b0429504b8802_1507798683.jpg"
+    },
+    {
+        "name":"Để Quên- Ngọt",
+        "link":"https://tainhacmienphi.biz/get/song/api/280741",
+        "poster":"https://zmp3-photo-fbcrawler.zmdcdn.me/avatars/8/2/82c1b4ebd0ec188c2c3b0429504b8802_1507798683.jpg"
+    },
+    {
+        "name":"No Internet - 7UPPERCUTS, Seachains",
+        "link":"https://tainhacmienphi.biz/get/song/api/235956",
+        "poster":"https://i.ytimg.com/vi/MJE8tqRFPWs/maxresdefault.jpg"
+    },
+    {
+        "name":"Wave Alpha - 7UPPERCUT, Cam",
+        "link":"https://tainhacmienphi.biz/get/song/api/165058",
+        "poster":"https://i.ytimg.com/vi/IuDcU0e8m_0/0.jpg"
+    },
+    {
+        "name":"Đã Lỡ Yêu Em Nhiều - JustaTee",
+        "link":"https://tainhacmienphi.biz/get/song/api/3468",
+        "poster":"https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_jpeg/covers/d/a/dae7488899bf6ee55f4127cb6a889391_1510557125.jpg"
+    },
 
 ];
 
