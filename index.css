@@ -103,6 +103,28 @@ body{
 {
     color:#cc2366;
 }
-audio{
-    margin-top: 15px;
+
+.audio-controll-button
+{
+    margin-top: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.audio-controll-button i{
+    font-size: 30px;
+    color: #b3acac;
+    display: block;
+}
+
+.audio-controll-button i:hover
+{
+    cursor: pointer;
+}
+
+.audio-controll-button .hide
+{
+    display: none;
 }
