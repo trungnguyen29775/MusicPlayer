@@ -113,11 +113,14 @@ body{
     flex-direction: row;
     margin-top: 12px;
     box-sizing: border-box;
-    background-color: #2980B9;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+       
     border-radius: 30px;
     padding: 5px 25px;
     height: 80px;
     justify-content: space-between;
+    
 }
 
 .name-controll-zone
